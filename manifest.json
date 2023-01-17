@@ -1,0 +1,12 @@
+{
+  "name": "Color Capturer",
+  "version": "1.0.0",
+  "manifest_version": 3,
+  "action": {
+    "default_title": "Color Capturer",
+    "default_popup": "popup.html"
+  },
+  "permissions": ["storage", "tabs"],
+  "content_scripts": [],
+  "description": "An extension picks the colors up"
+}
