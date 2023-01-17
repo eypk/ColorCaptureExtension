@@ -22,7 +22,7 @@ CopyButton.addEventListener("click", () => {
   );
   //copy button messages
   if (p1.textContent.startsWith("#")) {
-    p2.innerHTML = "Copied! Now, You can copy HEX color code...";
+    p2.innerHTML = "Copied! Now, You can paste HEX color code...";
   } else {
     p2.innerHTML = "Error: Please pick a color!...";
   }
