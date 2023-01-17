@@ -5,14 +5,35 @@
     <div style="margin-top: 10px">
       <p id="description">You will see your hex color code here</p>
 
-      <div style="display: flex; justify-content: space-around">
-        <p id="colorCode">Color</p>
-        <button id="copyColorClipboard">Copy color</button>
+      <div
+        style="
+          display: flex;
+          justify-content: space-around;
+          align-items: center;
+        "
+      >
+        <p
+          id="colorCode"
+          style="border: 1px solid gray; border-radius: 5px; padding: 5px"
+        >
+          Color
+        </p>
+        <button
+          id="copyColorClipboard"
+          style="
+            border: 1px solid gray;
+            border-radius: 5px;
+            padding: 5px;
+            height: 30px;
+          "
+        >
+          Copy color
+        </button>
       </div>
 
       <p id="result">Please click the box and choose your color</p>
 
-      <input type="color" id="color" />
+      <input type="color" id="input" />
     </div>
 
     <script src="popup.js"></script>
